@@ -118,14 +118,14 @@ header .header-wrap {
   display: flex;
   margin: 0 22px;
 }
-header .header-wrap img {
-  width: 70px;
-  height: 70px;
-  background-color: none;
-  border-radius: 0;
-  box-shadow: none;
-  margin-top: 3px;
-  margin-left: auto;
+header .header-wrap p {
+  font-family: "PingFang TC";
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 14px;
+  font-weight: semibold;
+  color: #707070;
+  margin: 7px 0 0 7px;
 }
 header .header-wrap .header-right {
   width: 228px;
@@ -134,18 +134,9 @@ header .header-wrap .header-right {
   border-radius: 10px;
   box-shadow: none;
   border: 1px solid #F7D9D9;
-  margin-top: 7px;
-  margin-left: 33px;
+  margin-top: 5px;
+  margin-left: auto;
   margin-right: auto;
-}
-header .header-wrap .header-right p {
-  font-family: "PingFang TC";
-  font-size: 10px;
-  letter-spacing: 0;
-  line-height: 14px;
-  font-weight: semibold;
-  color: #707070;
-  margin: 7px 0 0 7px;
 }
 header .header-wrap .header-right h2 {
   font-family: "PingFang TC";
@@ -204,7 +195,6 @@ header .header-wrap .header-right h2 {
   color: #707070;
   display: inline-block;
   width: 80%;
-  text-aline: center;
 }
 #contents .manual-background {
   width: 100%;
