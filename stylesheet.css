@@ -123,7 +123,7 @@ header .header-wrap p {
   font-size: 10px;
   letter-spacing: 0;
   line-height: 14px;
-  font-weight: semibold;
+  font-weight: normal;
   color: #707070;
   margin: 7px 0 0 7px;
 }
@@ -143,13 +143,14 @@ header .header-wrap .header-right h2 {
   font-size: 8px;
   letter-spacing: 0;
   line-height: 11px;
-  font-weight: semibold;
+  font-weight: normal;
   color: #707070;
   margin: 10px 0 0 7px;
 }
 
 #contents {
   width: 100%;
+  margin-bottom: 9px;
   text-align: center;
 }
 #contents .touroku {
@@ -253,7 +254,6 @@ footer {
   border-radius: 0;
   box-shadow: none;
   text-align: center;
-  margin-top: 9px;
 }
 footer p {
   font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro" "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", sans-serif;
@@ -263,6 +263,57 @@ footer p {
   font-weight: normal;
   color: #ffffff;
   padding-top: 4.5px;
+}
+
+#beginner .question-wrap {
+  margin: 16px 17px;
+}
+#beginner .question-wrap .question {
+  margin: 25px 0;
+}
+#beginner .question-wrap .question h1 {
+  font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro" "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 35px;
+  font-weight: 300;
+  color: #707070;
+  margin: 13px 0;
+}
+#beginner .question-wrap .question h2 {
+  font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro" "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 14px;
+  font-weight: 300;
+  color: #707070;
+}
+#beginner .question-wrap .question img {
+  width: 341px;
+  height: auto;
+}
+#beginner .last-wrap {
+  background-color: #FDDAF4;
+}
+#beginner .last-wrap .last {
+  padding: 10px 17px;
+}
+#beginner .last-wrap .last h1 {
+  font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro" "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 17px;
+  font-weight: 300;
+  color: #707070;
+  margin: 13px 0;
+}
+#beginner .last-wrap .last h2 {
+  font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro" "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 14px;
+  font-weight: 300;
+  color: #707070;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
