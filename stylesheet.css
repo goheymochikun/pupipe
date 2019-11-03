@@ -153,31 +153,32 @@ header .header-wrap .header-right h2 {
   margin-bottom: 9px;
   text-align: center;
 }
-#contents .touroku {
+#contents .touroku-background {
   width: 100%;
+}
+#contents .touroku-background .touroku {
+  width: auto;
   height: auto;
-  margin: 8px 0;
+  margin: 8px 25px;
   text-align: center;
 }
-#contents .touroku .a-background {
-  width: 80%;
+#contents .touroku-background .touroku .a-background {
+  width: 100%;
   height: 31px;
   background-color: #FDDAF4;
   border-radius: 3px;
   box-shadow: 3px 3px 0 0 rgba(165, 111, 219, 0.16);
   cursor: pointer;
   display: inline-block;
-  margin-left: 25px;
-  margin-right: 25px;
   margin-bottom: 18px;
 }
-#contents .touroku .a-background:active {
+#contents .touroku-background .touroku .a-background:active {
   box-shadow: none;
   margin-top: 3px;
   margin-bottom: 15px;
-  margin-left: 28px;
+  margin-left: 3px;
 }
-#contents .touroku .a-background p {
+#contents .touroku-background .touroku .a-background p {
   font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro" "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", sans-serif;
   font-size: 13px;
   letter-spacing: 0;
@@ -187,7 +188,7 @@ header .header-wrap .header-right h2 {
   display: inline-block;
   margin-top: 4.5px;
 }
-#contents .touroku h2 {
+#contents .touroku-background .touroku h2 {
   font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro" "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", sans-serif;
   font-size: 10px;
   letter-spacing: 0px;
@@ -197,27 +198,30 @@ header .header-wrap .header-right h2 {
   display: inline-block;
   width: 80%;
 }
-#contents .manual-background {
-  width: 100%;
+#contents .touroku-background .manual-background {
+  width: auto;
+  height: auto;
+  margin: 8px 25px;
+  text-align: center;
 }
-#contents .manual-background .manual {
-  width: 80%;
+#contents .touroku-background .manual-background .manual {
+  width: 100%;
   height: 64px;
   background-color: #DEEAFF;
   border-radius: 10px;
   box-shadow: 3px 3px 0 0 rgba(165, 111, 219, 0.16);
   display: inline-block;
-  margin: 8px 25px;
+  margin: 8px auto;
   cursor: pointer;
   text-align: center;
 }
-#contents .manual-background .manual:active {
+#contents .touroku-background .manual-background .manual:active {
   box-shadow: none;
   margin-top: 11px;
-  margin-left: 28px;
+  margin-left: 3px;
   margin-bottom: 5px;
 }
-#contents .manual-background .manual h1 {
+#contents .touroku-background .manual-background .manual h1 {
   font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro" "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", sans-serif;
   font-size: 13px;
   letter-spacing: 0;
@@ -229,7 +233,7 @@ header .header-wrap .header-right h2 {
   margin-left: auto;
   margin-right: auto;
 }
-#contents .manual-background .manual p {
+#contents .touroku-background .manual-background .manual p {
   width: 141px;
   height: 20px;
   background-color: none;
