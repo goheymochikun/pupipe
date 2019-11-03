@@ -113,11 +113,10 @@ header {
   border-radius: 0;
   box-shadow: none;
   margin-bottom: 16px;
-  text-align: center;
 }
 header .header-wrap {
   display: flex;
-  margin: 0 50px;
+  margin: 0 25px;
 }
 header .header-wrap p {
   font-family: "PingFang TC";
