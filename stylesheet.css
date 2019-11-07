@@ -112,31 +112,22 @@ header {
   background-color: #FDDAF4;
   border-radius: 0;
   box-shadow: none;
+  box-sizing: border-box;
+  padding-top: 5px;
   margin-bottom: 16px;
 }
 header .header-wrap {
-  display: flex;
-  margin: 0 25px;
-}
-header .header-wrap p {
-  font-family: "PingFang TC";
-  font-size: 10px;
-  letter-spacing: 0;
-  line-height: 14px;
-  font-weight: normal;
-  color: #707070;
-  margin: 7px 7px 0 7px;
+  width: 100%;
 }
 header .header-wrap .header-right {
-  width: 228px;
+  width: auto;
   height: 63px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: none;
   border: 1px solid #F7D9D9;
-  margin-top: 5px;
-  margin-left: auto;
-  text-align: left;
+  text-align: center;
+  margin: 0 25px;
 }
 header .header-wrap .header-right h2 {
   font-family: "PingFang TC";
@@ -284,6 +275,15 @@ footer p {
   color: #707070;
   margin: 13px 0;
 }
+#beginner .question-wrap .question .title {
+  font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro" "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 35px;
+  font-weight: normal;
+  color: #707070;
+  margin: 13px 0;
+}
 #beginner .question-wrap .question h2 {
   font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro" "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", sans-serif;
   font-size: 10px;
@@ -296,22 +296,19 @@ footer p {
   width: 80%;
   height: auto;
 }
-#beginner .last-wrap {
-  background-color: #FDDAF4;
-}
-#beginner .last-wrap .last {
+#beginner .last {
   padding: 10px 17px;
 }
-#beginner .last-wrap .last h1 {
+#beginner .last h1 {
   font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro" "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", sans-serif;
   font-size: 13px;
   letter-spacing: 0;
   line-height: 17px;
   font-weight: 300;
-  color: #707070;
+  color: #FF93E3;
   margin: 13px 0;
 }
-#beginner .last-wrap .last h2 {
+#beginner .last h2 {
   font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro" "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", sans-serif;
   font-size: 10px;
   letter-spacing: 0;
